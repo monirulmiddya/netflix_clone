@@ -1,0 +1,73 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.container_width {
+    max-width: 92% !important;
+}
+
+.bg-black {
+    background-color: #000 !important;
+}
+
+.bg-header-banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, .8) 100%), url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-divider {
+    height: 8px;
+    background-color: #222;
+}
+
+.bg-drk {
+    background-color: #303030 !important;
+}
+
+.accordion-button:focus {
+    border-color: unset;
+    box-shadow: unset
+}
+
+.poster-img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.bd-footer a {
+    color: #495057;
+    text-decoration: none !important;
+}
+
+.bg-trans {
+    background-color: rgba(0, 0, 0, .75) !important;
+}
+
+.icon-facebook {
+    height: 20px;
+    width: 20px;
+}
+
+.img-cards {
+    max-width: 200px;
+    height: 36px;
+}
